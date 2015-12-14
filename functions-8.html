@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+
+        function counting(input1, input2){
+            input1 = parseInt(prompt("enter starting point"));
+            input2 = parseInt(prompt("enter ending point"));
+            if(input1 < input2){
+                for(var i = input1; i <= input2; i++){
+                    document.write(i + "<br>")
+                }
+            }
+            else if(input1 > input2){
+                for(i = input1; i >=input2; i--){
+                    document.write(i + "<br>")
+                }
+            }
+            else{
+                for(i = input1; i <= input2; i++){
+                    document.write(i + "<br>")
+                }
+            }
+        }
+
+        counting();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
