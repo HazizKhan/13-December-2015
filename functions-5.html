@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function calculator(num1, num2){
+            num1 = parseInt(prompt("Enter first number"));
+            num2 = parseInt(prompt("Enter second number"));
+            var oprater = prompt("Enter the operator");
+            if(oprater == "*" || oprater == "x" || oprater == "X"){
+                alert("Your result is: " + (num1*num2));
+            }
+            else if(oprater == "/"){
+                alert("Your result is: " + (num1/num2));
+            }
+            else if(oprater == "-"){
+                alert("Your result is: " + (num1-num2));
+            }
+            else if(oprater == "+"){
+                alert("Your result is: " + (num1+num2));
+            }
+            else if(oprater == "%"){
+                alert("Your result is: " + (num1%num2));
+            }
+            else{
+                alert("Please enter correct operator. \n+ For Plus\n- For Minus\n* or x For Multiply\n/ For Divide");
+            }
+        }
+        calculator();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
