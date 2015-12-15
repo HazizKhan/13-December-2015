@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="functions-1.html"></script>
+    <script>
+        function calculateHypotenuse(){
+            var base = parseInt(prompt("enter base value"));
+            var perp = parseInt(prompt("enter perpendicular value"));
+            function calculateSquare(){
+                base = base * base;
+                perp = perp * perp
+            }
+            document.write("Hypotenuse"+ "<sup>"+"2"+"</sup>"+" = " + base + "<sup>"+"2"+"</sup>"+" + " + perp + "<sup>"+"2"+"</sup>"+ "<br>");
+            calculateSquare();
+            document.write("Hypotenuse"+ "<sup>"+"2"+"</sup>"+ " = " + (base + perp));
+        }
+        document.write("Formula:  Hypotenuse"+ "<sup>"+"2"+"</sup>"+" = Base"+ "<sup>"+"2"+"</sup>"+"+" + "Perp"+ "<sup>"+"2"+"</sup>"+ "<br>");
+        calculateHypotenuse();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
